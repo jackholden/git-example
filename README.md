@@ -9,17 +9,17 @@ An example Git repo
 
 ## Feature flags
 ### Using feature flags
-- Enable a flag directly in the CLI:
+Enable a flag directly in the CLI:
 ```bash
 ENABLE_FEATURE_FLAG_1=true bun run src/index.ts
 ```
 
-- Specify a .env file:
+Specify a .env file:
 ```bash
 bun --env-file=.env.example src/index.ts
 ```
 
-- Define scripts in package.json (e.g. beta config):
+Define scripts in package.json (e.g. beta config):
 ```json
 "scripts": {
   "start:beta": "ENABLE_FEATURE_FLAG_1=true bun run src/index.ts"
