@@ -1,6 +1,10 @@
 # @jackholden/git-example
 An example Git repo
 
+## Tooling
+- **Lefthook**: My chosen Git hook manager.
+  - **commit-msg**: Utilises **Commitlint** to enforce Conventional Commits standards.
+
 ---------------
 
 To install dependencies:
